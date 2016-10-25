@@ -5,9 +5,239 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 // $width: (4 * $unit);
 // $height: (4 * $unit);
 
+@media only screen and (max-width :785px) {
+
+  .instruction2-page  h1 {
+    color: $white;
+    font-size: 2.5em;
+    font-style: ariel;
+    margin-left: 70px;
+    margin-right: 70px;
+    position: fixed;
+    text-align: center;
+    top: 35%;
+    }
 
 
-@media only screen and (max-width : 768px) {
+  .instruction2-page  p {
+    bottom: 35%;
+    color: $fontcolor2;
+    font-size: 2em;
+    font-style: ariel;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: fixed;
+    text-align: center;
+    }
+
+
+  .login {
+    background-color: $fontcolor2;
+    border: 0;
+    bottom: 0;
+    font-size: 40px;
+    height: 10%;
+    outline: none;
+    overflow: hidden;
+    position: fixed;
+    width: 50%;
+  }
+
+  .sign-up {
+    background-color: $fontcolor2;
+    border: 0;
+    bottom: 0;
+    font-size: 40px;
+    height: 10%;
+    outline: none;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    width: 50%;
+  }
+
+}
+
+@media only screen and (max-width : 414px) {
+
+  .instruction2-page  h1 {
+    color: $white;
+    font-size: 1.5em;
+    font-style: ariel;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: fixed;
+    text-align: center;
+    top: 35%;
+    }
+
+
+  .instruction2-page  p {
+    bottom: 35%;
+    color: $fontcolor2;
+    font-size: 1.2em;
+    font-style: ariel;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: fixed;
+    text-align: center;
+    }
+
+  body {
+    background-color: $background-color2;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+  }
+
+  .login {
+    background-color: $fontcolor2;
+    border: 0;
+    bottom: 0;
+    font-size: 40px;
+    height: 10%;
+    outline: none;
+    overflow: hidden;
+    position: fixed;
+    width: 50%;
+  }
+
+  .sign-up {
+    background-color: $fontcolor2;
+    border: 0;
+    bottom: 0;
+    font-size: 40px;
+    height: 10%;
+    outline: none;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width : 375px) {
+
+  .instruction2-page  h1 {
+    color: $white;
+    font-size: 1.5em;
+    font-style: ariel;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: fixed;
+    text-align: center;
+    top: 35%;
+    }
+
+
+  .instruction2-page  p {
+    bottom: 35%;
+    color: $fontcolor2;
+    font-size: 1.2em;
+    font-style: ariel;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: fixed;
+    text-align: center;
+    }
+
+  body {
+    background-color: $background-color2;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+  }
+
+  .login {
+    background-color: $fontcolor2;
+    border: 0;
+    bottom: 0;
+    font-size: 40px;
+    height: 10%;
+    outline: none;
+    overflow: hidden;
+    position: fixed;
+    width: 50%;
+  }
+
+  .sign-up {
+    background-color: $fontcolor2;
+    border: 0;
+    bottom: 0;
+    font-size: 40px;
+    height: 10%;
+    outline: none;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width : 320px) {
+
+  .instruction2-page  h1 {
+    color: $white;
+    font-size: 1.5em;
+    font-style: ariel;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: fixed;
+    text-align: center;
+    top: 35%;
+    }
+
+
+  .instruction2-page  p {
+    bottom: 35%;
+    color: $fontcolor2;
+    font-size: 1.2em;
+    font-style: ariel;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: fixed;
+    text-align: center;
+    }
+
+  body {
+    background-color: $background-color2;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+  }
+
+  .login {
+    background-color: $fontcolor2;
+    border: 0;
+    bottom: 0;
+    font-size: 40px;
+    height: 10%;
+    outline: none;
+    overflow: hidden;
+    position: fixed;
+    width: 50%;
+  }
+
+  .sign-up {
+    background-color: $fontcolor2;
+    border: 0;
+    bottom: 0;
+    font-size: 40px;
+    height: 10%;
+    outline: none;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    width: 50%;
+  }
+}
+
+
+
+
+// Break points for first instruction page
+
+@media only screen and (max-width :785px) {
 
   .instruction-page  h1 {
     color: $white;
@@ -32,21 +262,32 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
     text-align: center;
     }
 
-  .instruction-page {
-    background-color: $background-color2;
-    margin: 0;
-    min-height: 100%;
-    padding: 0;
-  }
 
   .login {
-    background-color: Transparent;
-    background-repeat: no-repeat;
+    background-color: $fontcolor2;
     border: 0;
-    cursor: pointer;
+    bottom: 0;
+    font-size: 40px;
+    height: 10%;
     outline: none;
     overflow: hidden;
-}
+    position: fixed;
+    width: 50%;
+  }
+
+  .sign-up {
+    background-color: $fontcolor2;
+    border: 0;
+    bottom: 0;
+    font-size: 40px;
+    height: 10%;
+    outline: none;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    width: 50%;
+  }
+
 }
 
 @media only screen and (max-width : 414px) {
@@ -79,6 +320,31 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
     margin: 0;
     min-height: 100%;
     padding: 0;
+  }
+
+  .login {
+    background-color: $fontcolor2;
+    border: 0;
+    bottom: 0;
+    font-size: 40px;
+    height: 10%;
+    outline: none;
+    overflow: hidden;
+    position: fixed;
+    width: 50%;
+  }
+
+  .sign-up {
+    background-color: $fontcolor2;
+    border: 0;
+    bottom: 0;
+    font-size: 40px;
+    height: 10%;
+    outline: none;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    width: 50%;
   }
 }
 
@@ -113,6 +379,31 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
     min-height: 100%;
     padding: 0;
   }
+
+  .login {
+    background-color: $fontcolor2;
+    border: 0;
+    bottom: 0;
+    font-size: 40px;
+    height: 10%;
+    outline: none;
+    overflow: hidden;
+    position: fixed;
+    width: 50%;
+  }
+
+  .sign-up {
+    background-color: $fontcolor2;
+    border: 0;
+    bottom: 0;
+    font-size: 40px;
+    height: 10%;
+    outline: none;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    width: 50%;
+  }
 }
 
 @media only screen and (max-width : 320px) {
@@ -145,6 +436,31 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
     margin: 0;
     min-height: 100%;
     padding: 0;
+  }
+
+  .login {
+    background-color: $fontcolor2;
+    border: 0;
+    bottom: 0;
+    font-size: 40px;
+    height: 10%;
+    outline: none;
+    overflow: hidden;
+    position: fixed;
+    width: 50%;
+  }
+
+  .sign-up {
+    background-color: $fontcolor2;
+    border: 0;
+    bottom: 0;
+    font-size: 40px;
+    height: 10%;
+    outline: none;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    width: 50%;
   }
 }
 
